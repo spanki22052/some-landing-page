@@ -1,12 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import PagesHolder from "./components";
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>
-     Landing page
-    </h1>
+    <PagesHolder />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
