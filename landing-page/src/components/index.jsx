@@ -6,6 +6,7 @@ import NavbarComponent from "./NavbarComponent";
 const PagesHolder = () => {
   return (
     <Router>
+      <NavbarComponent />
       <Switch>
         <Route exact path="/" component={MainPage} />
       </Switch>
