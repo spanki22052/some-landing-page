@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import $ from "jquery";
 
 const fadeInh1 = () => {
@@ -8,7 +8,6 @@ const fadeInh1 = () => {
 };
 
 const MainPage = () => {
-
   return (
     <div className="main-page">
       <h1 id="helector">Hello from Main Page</h1>
