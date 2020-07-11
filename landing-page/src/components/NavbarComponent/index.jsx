@@ -22,7 +22,7 @@ const NavbarComponent = () => {
   }, []);
 
   return (
-    <div className="navbar-component">
+    <div className="navbar-component" style={{ zIndex: '5' }}>
       <nav className="nav">
         <div className="container">
           <div className="logo">
