@@ -31,7 +31,8 @@ body {
 .nav div.logo a {
   text-decoration: none;
   color: #000;
-  font-size: 2.5rem;
+  font-weight: 700;
+  font-size: 2.8rem;
 }
 
 .affix div.logo a {
@@ -41,7 +42,7 @@ body {
 }
 
 .nav div.logo a:hover {
-  color: rgb(219, 219, 219);
+  color: #575757;
 }
 
 .nav div.main_list {
@@ -69,7 +70,9 @@ body {
   text-decoration: none;
   color: #000;
   line-height: 65px;
-  font-size: 2.4rem;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .affix div.main_list ul li a {
@@ -77,7 +80,7 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-  color: rgb(219, 219, 219);
+  color: #575757;
 }
 
 /* Home section */
@@ -132,7 +135,7 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: #6edacb;
+    background-color: #90e0d6;
     /*same background color of navbar*/
     background-position: center top;
   }
@@ -143,7 +146,9 @@ body {
   .nav div.main_list ul li a {
     text-align: center;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     padding: 20px;
   }
   .nav div.media_button {
@@ -175,9 +180,8 @@ body {
 }
 
 .affix .navTrigger i {
-    background-color: white;
+  background-color: white;
 }
-
 
 .navTrigger i:nth-child(1) {
   -webkit-animation: outT 0.8s backwards;
@@ -350,7 +354,7 @@ body {
 
 .affix {
   padding: 0;
-  background-color: #6edacb;
+  background-color: #90e0d6;
 }
 
 .myH2 {

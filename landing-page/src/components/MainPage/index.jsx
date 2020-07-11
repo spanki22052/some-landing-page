@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "./mainpage.scss";
 import $ from "jquery";
 
 const MainPage = () => {
@@ -11,15 +12,19 @@ const MainPage = () => {
   return (
     <div className="main-page">
       <div
+        className="photo-block"
         style={{
           backgroundImage: "url('/images/doctor-image.jpg')",
-          width: "100%",
-          height: "1900px",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
-          objectFit: "contain",
         }}
-      ></div>
+      >
+        <div className="white-block">
+          <img src="/images/doctor.jpeg" alt="doctorphoto"/>
+          <h1>
+            Я Джеймс - являюсь лучшим хирургом Махачкалы. Опыт работы - 10 лет.
+            Вы можете довериться мне!
+          </h1>
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "./navbar.css";
 import $ from "jquery";
 
@@ -27,21 +26,15 @@ const NavbarComponent = () => {
       <nav className="nav">
         <div className="container">
           <div className="logo">
-            <a href="#">Your Logo</a>
+            <a href="/">Джеймс</a>
           </div>
           <div id="mainListDiv" className="main_list">
             <ul className="navlinks">
               <li>
-                <a href="#">About</a>
+                <a href="/about">обо мне</a>
               </li>
               <li>
-                <a href="#">Portfolio</a>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
+                <a href="/feedback">обратная связь</a>
               </li>
             </ul>
           </div>
