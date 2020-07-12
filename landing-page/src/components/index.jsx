@@ -5,6 +5,7 @@ import NavbarComponent from "./NavbarComponent";
 import AboutPage from "./AboutPage";
 import AdminLoginPage from "./AdminLoginPage";
 import FeedbackPage from "./FeedbackPage";
+import AdminPanel from "./AdminPanel";
 
 const PagesHolder = () => {
   return (
@@ -15,6 +16,7 @@ const PagesHolder = () => {
         <Route exact path="/about" component={AboutPage} />
         <Route exact path="/feedback" component={FeedbackPage} />
         <Route exact path="/admin" component={AdminLoginPage} />
+        <Route exact path="/adminpanel" component={AdminPanel} />
       </Switch>
     </Router>
   );
