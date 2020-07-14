@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+
 html,
 body {
   margin: 0;
@@ -8,14 +9,30 @@ body {
   font-size: 62.5%;
   font-size: 10px;
 }
-/*-- Inspiration taken from abdo steif -->
-/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
-/* Navbar section */
+.container {
+  width: 90% !important;
+  max-width: 9999px !important;
+}
+
+.txt-blck {
+  width: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  float: left
+}
+
+.txt-blck p {
+  text-decoration: none;
+  color: black;
+}
+
 
 .nav {
   width: 100%;
-  height: 65px;
+  height: 75px;
   position: fixed;
   line-height: 65px;
   text-align: center;
@@ -25,24 +42,30 @@ body {
   float: left;
   width: auto;
   height: auto;
-  padding-left: 3rem;
+  padding-left: -1rem;
+}
+
+
+.nav div.logo img {
+  width: 80px;
+  background-size: auto;
+  object-fit: fill;
 }
 
 .nav div.logo a {
   text-decoration: none;
-  color: #000;
   font-weight: 700;
   font-size: 2.8rem;
 }
 
 .affix div.logo a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 2.5rem;
 }
 
 .nav div.logo a:hover {
-  color: #575757;
+  color: black;
 }
 
 .nav div.main_list {
@@ -63,7 +86,7 @@ body {
   width: auto;
   height: 65px;
   padding: 0;
-  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 .nav div.main_list ul li a {
@@ -76,11 +99,11 @@ body {
 }
 
 .affix div.main_list ul li a {
-  color: white;
+  color: black;
 }
 
 .nav div.main_list ul li a:hover {
-  color: #575757;
+  color: #e6e4e4;
 }
 
 /* Home section */
@@ -116,18 +139,23 @@ body {
   .navTrigger {
     display: block;
   }
+
   .nav div.logo {
     margin-left: 15px;
+
   }
+
   .nav div.main_list {
     width: 100%;
     height: 0;
     overflow: hidden;
   }
+
   .nav div.show_list {
     height: auto;
     display: none;
   }
+
   .nav div.main_list ul {
     flex-direction: column;
     width: 100%;
@@ -135,14 +163,15 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: #90e0d6;
-    /*same background color of navbar*/
+    background-color: white;
     background-position: center top;
   }
+
   .nav div.main_list ul li {
     width: 100%;
     text-align: right;
   }
+
   .nav div.main_list ul li a {
     text-align: center;
     width: 100%;
@@ -151,6 +180,7 @@ body {
     font-weight: 400;
     padding: 20px;
   }
+
   .nav div.media_button {
     display: block;
   }
@@ -180,7 +210,7 @@ body {
 }
 
 .affix .navTrigger i {
-  background-color: white;
+  background-color: black;
 }
 
 .navTrigger i:nth-child(1) {
@@ -224,6 +254,7 @@ body {
   50% {
     -webkit-transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(45deg);
   }
@@ -233,6 +264,7 @@ body {
   50% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(45deg);
   }
@@ -242,6 +274,7 @@ body {
   50% {
     -webkit-transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(45deg);
   }
@@ -251,6 +284,7 @@ body {
   50% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(45deg);
   }
@@ -260,9 +294,11 @@ body {
   0% {
     -webkit-transform: translateY(0px) rotate(0deg);
   }
+
   50% {
     -webkit-transform: translateY(9px) rotate(0deg);
   }
+
   100% {
     -webkit-transform: translateY(9px) rotate(135deg);
   }
@@ -272,9 +308,11 @@ body {
   0% {
     transform: translateY(0px) rotate(0deg);
   }
+
   50% {
     transform: translateY(9px) rotate(0deg);
   }
+
   100% {
     transform: translateY(9px) rotate(135deg);
   }
@@ -284,9 +322,11 @@ body {
   0% {
     -webkit-transform: translateY(0px) rotate(0deg);
   }
+
   50% {
     -webkit-transform: translateY(9px) rotate(0deg);
   }
+
   100% {
     -webkit-transform: translateY(9px) rotate(135deg);
   }
@@ -296,9 +336,11 @@ body {
   0% {
     transform: translateY(0px) rotate(0deg);
   }
+
   50% {
     transform: translateY(9px) rotate(0deg);
   }
+
   100% {
     transform: translateY(9px) rotate(135deg);
   }
@@ -308,9 +350,11 @@ body {
   0% {
     -webkit-transform: translateY(0px) rotate(0deg);
   }
+
   50% {
     -webkit-transform: translateY(-9px) rotate(0deg);
   }
+
   100% {
     -webkit-transform: translateY(-9px) rotate(135deg);
   }
@@ -320,9 +364,11 @@ body {
   0% {
     transform: translateY(0px) rotate(0deg);
   }
+
   50% {
     transform: translateY(-9px) rotate(0deg);
   }
+
   100% {
     transform: translateY(-9px) rotate(135deg);
   }
@@ -332,9 +378,11 @@ body {
   0% {
     -webkit-transform: translateY(0px) rotate(0deg);
   }
+
   50% {
     -webkit-transform: translateY(-9px) rotate(0deg);
   }
+
   100% {
     -webkit-transform: translateY(-9px) rotate(135deg);
   }
@@ -344,9 +392,11 @@ body {
   0% {
     transform: translateY(0px) rotate(0deg);
   }
+
   50% {
     transform: translateY(-9px) rotate(0deg);
   }
+
   100% {
     transform: translateY(-9px) rotate(135deg);
   }
@@ -354,19 +404,21 @@ body {
 
 .affix {
   padding: 0;
-  background-color: #90e0d6;
+  background-color: #ffffff;
 }
 
 .myH2 {
   text-align: center;
   font-size: 4rem;
 }
+
 .myP {
   text-align: justify;
   padding-left: 15%;
   padding-right: 15%;
   font-size: 20px;
 }
+
 @media all and (max-width: 700px) {
   .myP {
     padding: 2%;
