@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import PagesHolder from "./components";
-import "bootstrap/dist/css/bootstrap.min.css";
 const firebase = require("firebase");
 
 var firebaseConfig = {

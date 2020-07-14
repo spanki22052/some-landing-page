@@ -14,15 +14,13 @@ const MainPage = () => {
       <div
         className="photo-block"
         style={{
-          backgroundImage: "url('/images/doctor-image.jpg')",
+          backgroundImage: "url('/images/first-black-image.png')",
         }}
       >
-        <div className="white-block">
-          <img src="/images/doctor.jpeg" alt="doctorphoto" />
-          <h1>
-            Я Джеймс - являюсь лучшим хирургом Махачкалы. Опыт работы - 10 лет.
-            Вы можете довериться мне!
-          </h1>
+        <div className="text-block">
+          <h1>Следите за своим питанием вместе с доктором Даудовым.</h1>
+          <img src="/images/white-icon.png" alt="photo" />
+          <button>Отправить заявку</button>
         </div>
       </div>
 
