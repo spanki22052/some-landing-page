@@ -24,6 +24,28 @@ const MainPage = () => {
         </div>
       </div>
 
+      <div className="icons-block">
+        <h1>Мои услуги</h1>
+        <div className="blocks-holder">
+          <div className="icon-block">
+            <img src="/svg/pill.svg" alt="pill" />
+            <p>
+              Я подберу для вас лучшие витамины, полезные вещества для
+              набора/сброса веса
+            </p>
+          </div>
+          <div className="icon-block">
+            <img src="/svg/food.svg" alt="pill" />
+            <p>Я научу вас соблюдать режим правильного питания!</p>
+          </div>
+          <div className="icon-block">
+            <img src="/svg/heart.svg" alt="pill" />
+            <p>Я буду следить за твоим здоровьем.</p>
+          </div>
+        </div>
+        <button>Связаться со мной</button>
+      </div>
+
       <div className="minbor-block">
         <a href="https://www.who.int/ru">
           <img className="WR" src="/images/world.jpg" alt="gerb" />
