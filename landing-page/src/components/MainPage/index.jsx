@@ -46,6 +46,14 @@ const MainPage = () => {
         <button>Связаться со мной</button>
       </div>
 
+      <div className="brown-block">
+        <h1>И еще много всего...</h1>
+        <p>
+          Скоро я серьезно займусь диетологией. Будьте в курсе событий!
+          Подпишитесь на мой instagram: daudovdoc
+        </p>
+      </div>
+
       <div className="minbor-block">
         <a href="https://www.who.int/ru">
           <img className="WR" src="/images/world.jpg" alt="gerb" />

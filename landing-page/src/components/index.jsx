@@ -6,6 +6,7 @@ import AboutPage from "./AboutPage";
 import AdminLoginPage from "./AdminLoginPage";
 import FeedbackPage from "./FeedbackPage";
 import AdminPanel from "./AdminPanel";
+import Footer from "./Footer";
 
 const PagesHolder = () => {
   return (
@@ -18,6 +19,7 @@ const PagesHolder = () => {
         <Route exact path="/admin" component={AdminLoginPage} />
         <Route exact path="/adminpanel" component={AdminPanel} />
       </Switch>
+      <Footer />
     </Router>
   );
 };
