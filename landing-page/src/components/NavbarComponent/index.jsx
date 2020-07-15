@@ -2,7 +2,6 @@ import React from "react";
 import "./navbar.scss";
 
 const NavbarComponent = () => {
-  //
   return (
     <div className="navbar-component">
       <nav
@@ -40,7 +39,8 @@ const NavbarComponent = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav>{" "}
+      *
     </div>
   );
 };
