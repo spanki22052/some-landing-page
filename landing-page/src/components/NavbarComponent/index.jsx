@@ -8,7 +8,10 @@ const NavbarComponent = () => {
         className="navbar fixed-top navbar-expand-lg navbar-dark"
         style={{ backgroundColor: "black" }}
       >
-        <div className="container">
+        <div
+          className="container"
+          style={{ marginLeft: "5%", width: "100%", maxWidth: "none" }}
+        >
           <a className="navbar-brand" href="#">
             <img src="/images/white-icon-text.png" alt="" />
           </a>
@@ -25,17 +28,26 @@ const NavbarComponent = () => {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto" style={{ marginLeft: "60%" }}>
+            <ul className="navbar-nav mr-auto" style={{ marginLeft: "55%" }}>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Обо мне
+                <a className="nav-link" href="#" style={{ width: "115px" }}>
+                  DR. DAUDOV
                 </a>
               </li>
+              <div className="white-line"></div>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Контакты
+                  НОВОСТИ
                 </a>
               </li>
+              <div className="white-line"></div>
+
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  СВЯЗЬ
+                </a>
+              </li>
+              <div className="white-line"></div>
             </ul>
           </div>
         </div>

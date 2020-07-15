@@ -5,8 +5,77 @@
     }
   }
 
+  @media (max-width: 1200px) {
+    .navbar-nav {
+      margin-left: 50% !important;
+      margin-right: 0 !important;
+    }
+  }
+
+  @media (min-width: 701px) and (max-width: 1000px) {
+    .white-line {
+      border: none;
+      display: none;
+    }
+
+    .navbar-collapse {
+      width: 200px !important;
+    }
+
+    .navbar-nav {
+      width: 200px !important;
+      margin-left: 85% !important;
+      margin-right: 0 !important;
+    }
+
+    .nav-item {
+      float: right !important;
+      text-align: right !important;
+      .nav-link {
+        float: right !important;
+      }
+    }
+  }
+
+  @media (max-width: 700px) {
+    .navbar-nav {
+      margin-left: 78% !important;
+      margin-right: 0 !important;
+    }
+
+    .nav-item {
+      text-align: right !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .navbar-nav {
+      margin-left: 65% !important;
+      margin-right: 0 !important;
+    }
+
+    .nav-item {
+      text-align: right !important;
+    }
+  }
+
   .nav-item {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
+    margin-left: 10px;
+    text-align: center;
+    height: 35px;
+    float: left;
+
+    .nav-link {
+      font-weight: 700;
+      font-size: 0.9em;
+    }
+  }
+
+  .white-line {
+    border-right: 1.5px solid white;
+    transform: rotate(15deg);
+    margin-left: 20px;
   }
 }
