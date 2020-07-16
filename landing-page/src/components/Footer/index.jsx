@@ -40,8 +40,8 @@ const Footer = () => {
               className="instagram-icon"
               src="/svg/instagram.svg"
               alt="instagram"
-            />
-            <img className="vk-icon" src="/svg/vk.svg" alt="vk" />
+                />
+                <img className="vk-icon" src="/svg/vk.svg" alt="vk" />
           </div>
         </div>
       </div>
