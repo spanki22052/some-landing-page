@@ -70,7 +70,7 @@
     align-items: center;
 
     @media (max-width: 500px) {
-      height: 700px !important;
+      height: 800px !important;
     }
 
     .text-block {
@@ -81,26 +81,43 @@
       align-items: center;
       flex-direction: column;
 
-      @media (max-width: 500px) {
+      @media (max-width: 800px) {
         h1 {
-          font-size: 28px !important;
+          font-size: 26px !important;
+          margin-top: 10px;
+        }
+        h3 {
+          font-size: 35px !important;
           width: 90% !important;
         }
       }
-
-      h1 {
+      h3 {
+        width: 100%;
+        display: block;
         font-family: "Montserrat", sans-serif;
         font-style: normal;
-        font-weight: 800;
-        font-size: 34px;
+        font-weight: 700;
+        font-size: 40px;
         line-height: 41px;
         text-align: center;
-        width: 50%;
-        max-width: 600px;
+
+        margin-bottom: 45px;
 
         color: #ffffff !important;
       }
 
+      h1 {
+        width: 100%;
+        display: block;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 30px;
+        text-align: center;
+
+        color: #ffffff !important;
+      }
       img {
         width: 200px;
         height: 200px;
